@@ -6,6 +6,7 @@ header
 {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 header ul
@@ -13,10 +14,19 @@ header ul
     display: flex;
 }
 
+header li
+{
+    padding: 30px 10px;
+}
+
 header a:hover
 {
     color: #0065FC;
-    text-decoration: overline #0065FC;
+}
+
+header li:hover
+{
+    border-top: solid 2px #0065FC;
 }
 
 /* Formulaire */
@@ -31,7 +41,6 @@ header a:hover
 
 #filtres i
 {
-    color: #0065FC;
     background-color: #DEEBFF;
     padding: 15px;
     border-radius: 25px;
@@ -44,7 +53,7 @@ header a:hover
     font-weight: bold;
     display: flex;
     align-items: baseline;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 15px;
 }
 
@@ -58,6 +67,64 @@ header a:hover
 #resultats
 {
     display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+#resultats i
+{
+    border: solid #F2F2F2 2px;
+    padding: 4px 9px;
+    border-radius: 25px;
+    font-size: 90%;
+}
+
+/* Main */
+
+main
+{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+}
+
+article
+{
+    width: 30%;
+    margin: auto;
+}
+
+#hebergements
+{
+    flex-grow: 2;
+    margin-right: 20px;
+}
+
+#populaires
+{
+
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+#hebergements img
+{
+    width: 30%;
+    height: 15%;
+}
+
+#populaires img
+{
+    width: 15%;
+    height: 30%;
 }
 
 /* Body */
@@ -87,4 +154,14 @@ a, a:visited
 {
     text-decoration: none;
     color: inherit;
+}
+
+i
+{ 
+    color: #0065FC;
+}
+
+.fa-map-marker-alt, .fa-chart-line
+{
+    color: black;
 }
