@@ -13,6 +13,14 @@ header ul
     display: flex;
 }
 
+header a:hover
+{
+    color: #0065FC;
+    text-decoration: overline #0065FC;
+}
+
+/* Formulaire */
+
 #filtres
 {
     display: flex;
@@ -47,6 +55,11 @@ header ul
     box-shadow: 5px 5px 5px green;
 }
 
+#resultats
+{
+    display: flex;
+}
+
 /* Body */
 
 @font-face
@@ -61,9 +74,17 @@ header ul
 body
 {
     font-family: ralewaythin, Arial, sans-serif;
+    width: 90%;
+    margin: auto;
 }
 
 ul
 {
     list-style-type: none;
+}
+
+a, a:visited
+{
+    text-decoration: none;
+    color: inherit;
 }
