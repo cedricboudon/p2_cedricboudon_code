@@ -1,0 +1,69 @@
+/* Feuille de style CSS P2 */
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul
+{
+    display: flex;
+}
+
+#filtres
+{
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#filtres i
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#filtres p
+{
+    border: solid #F2F2F2 3px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+#filtres p:hover
+{
+    color: green;
+    transform: scale(1.25);
+    box-shadow: 5px 5px 5px green;
+}
+
+/* Body */
+
+@font-face
+{
+    font-family: 'ralewaythin';
+    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: ralewaythin, Arial, sans-serif;
+}
+
+ul
+{
+    list-style-type: none;
+}
