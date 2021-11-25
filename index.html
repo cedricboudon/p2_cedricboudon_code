@@ -35,22 +35,19 @@
 <div>
     <!--form avec bouton et filtres en dessous et logo et p-->
     <form method="post" action="#">
-        <p><label for="ville"><i class="fas fa-map-marker-alt"></i></label>
-        <input type="search" name="ville" id="ville" placeholder="Ville" value="Marseille, France" />
-        <button>Rechercher</button>
-        <button><i class="fas fa-search"></i></button></p>
+        <p><label for="ville"><i class="fas fa-map-marker-alt"></i></label><input type="search" name="ville" id="ville" placeholder="Ville" value="Marseille, France" /><button><i class="fas fa-search"></i><span>Rechercher</span></button></p>
     </form>
 
     <div id="filtres">
         <h3>Filtres</h3><!--Chaque filtre devra changer d'apparence au survol-->
         
-        <div><p><i class="fas fa-money-bill-wave"></i>Économique</p></div>
+        <div><i class="fas fa-money-bill-wave"></i><p>Économique</p></div>
 
-        <div><p><i class="fas fa-child"></i>Familial</p></div>
+        <div><i class="fas fa-child"></i><p>Familial</p></div>
 
-        <div><p><i class="fas fa-heart"></i>Romantique</p></div>
+        <div><i class="fas fa-heart"></i><p>Romantique</p></div>
 
-        <div><p><i class="fas fa-dog"></i>Animaux autorisés</p></div>
+        <div><i class="fas fa-dog"></i><p>Animaux autorisés</p></div>
 
     </div>
 
@@ -167,13 +164,13 @@
             </a>
         </article>
 
-        <h3>Afficher plus</h3>
+        <p id="plus">Afficher plus</p>
     <!--H3-->
     </section>
 
     <section id="populaires"><!--Chaque article devra être cliquable dans son ensemble-->
     <!--H2 et logo-->
-        <div>
+        <div id="logo">
             <h2>Les plus populaires</h2>
 
             <i class="fas fa-chart-line"></i>
@@ -232,78 +229,82 @@
 <!--H2-->
     <h2>Activités à Marseille</h2>
 
-    <div>
-        <a href="#">
-        <div><!--photo-->
-            <img src="images/vieux_port.jpg" alt="Vieux Port" />
-        </div>
+    <div class="acti">
+        <div class="vites">
+            <a href="#">
+                <div><!--photo-->
+                    <img src="images/vieux_port.jpg" alt="Vieux Port" />
+                </div>
 
-        <div><!--texte-->
-            <h3>Vieux Port</h3>
+                <div><!--texte-->
+                    <h3>Vieux Port</h3>
+                </div>
+            </a>
         </div>
-        </a>
     </div>
 
-    <div>
-        <div>
+    <div class="acti">
+        <div class="vites">
             <a href="#">
-            <div><!--photo-->
-                <img src="images/fort_de_pomegues.jpg" alt="Fort de Pomègues" />
-            </div>
+                <div><!--photo-->
+                    <img src="images/fort_de_pomegues.jpg" alt="Fort de Pomègues" />
+                </div>
 
-            <div><!--texte-->
-                <h3>Fort de Pomègues</h3>
-            </div>
+                <div><!--texte-->
+                    <h3>Fort de Pomègues</h3>
+                </div>
             </a>
         </div>
 
-        <div>
+        <div class="vites">
             <a href="#">
-            <div><!--photo-->
-                <img src="images/iles_du_frioul.jpg" alt="Îles du Frioul" />
-            </div>
+                <div><!--photo-->
+                    <img src="images/iles_du_frioul.jpg" alt="Îles du Frioul" />
+                </div>
 
-            <div><!--texte-->
-                <h3>Îles du Frioul</h3>
-            </div>
+                <div><!--texte-->
+                    <h3>Îles du Frioul</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="acti">
+        <div class="vites">
+            <a href="#">
+                <div><!--photo-->
+                    <img src="images/parc_national_des_calanques.jpg" alt="Parc National des Calanques" />
+                </div>
+
+                <div><!--texte-->
+                    <h3>Parc National des Calanques</h3>
+                </div>
             </a>
         </div>
     </div>
     
-    <div>
-        <a href="#">
-        <div><!--photo-->
-            <img src="images/parc_national_des_calanques.jpg" alt="Parc National des Calanques" />
-        </div>
-
-        <div><!--texte-->
-            <h3>Parc National des Calanques</h3>
-        </div>
-        </a>
-    </div>
-    
-    <div>
-        <div>
+    <div class="acti">
+        <div class="vites">
             <a href="#">
-            <div><!--photo-->
-                <img src="images/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde" />
-            </div>
+                <div><!--photo-->
+                    <img src="images/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde" />
+                </div>
 
-            <div><!--texte-->
-                <h3>Notre-Dame-de-la-Garde</h3>
-            </div>
+                <div><!--texte-->
+                    <h3>Notre-Dame-de-la-Garde</h3>
+                </div>
             </a>
         </div>
 
-        <div>
+        <div class="vites">
             <a href="#">
-            <div><!--photo-->
-                <img src="images/parc_longchamp.jpg" alt="Parc Longchamp" />
-            </div>
+                <div><!--photo-->
+                    <img src="images/parc_longchamp.jpg" alt="Parc Longchamp" />
+                </div>
 
-            <div><!--texte-->
-                <h3>Parc Longchamp</h3>
-            </div>
+                <div><!--texte-->
+                    <h3>Parc Longchamp</h3>
+                </div>
             </a>
         </div>
     </div>
