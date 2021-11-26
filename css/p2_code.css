@@ -6,7 +6,13 @@ header
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+}
+
+header img
+{
+    margin: 30px 0 0 15px;
+    width: 50%;
 }
 
 header ul
@@ -153,45 +159,78 @@ section
     flex-wrap: wrap;
     background-color: #F2F2F2;
     border-radius: 25px;
+    padding: 30px 25px;
 }
 
 article
 {
-    width: 30%;
-    margin: auto;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#hebergements .txt
+{
+    padding: 0 0 0 5px;
 }
 
 #hebergements
 {
+    justify-content: space-between;
+    align-content: space-between;
     width: 60%;
-    padding: 1% 2%;
 }
 
-#populaires
+#hebergements article
 {
     width: 30%;
-    padding: 1% 2%;
+    margin: 15px 0;
 }
 
 #hebergements img
 {
     width: 100%;
-    height: 120px;
-    overflow: hidden;
+    height: 80px;
     object-fit: cover;
-}
-
-#populaires img
-{
-    width: 100%;
-    height: 120px;
-    overflow: hidden;
-    object-fit: cover;
+    border-radius: 7px 7px 0 0;
 }
 
 #plus
 {
     font-weight: bold;
+    margin: 0;
+}
+
+#populaires
+{
+    align-content: space-between;
+    width: 30%;
+}
+
+#populaires article
+{
+    display: flex;
+    width: 94%;
+}
+
+#populaires img
+{
+    height: 100%;
+    max-width: 120px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 7px 0 0 7px;
+}
+
+#populaires .txt
+{
+    padding-left: 10px;
+}
+
+#populaires .txt p
+{
+    margin: 0;
+    padding: 5px 0 10px 0;
 }
 
 /* Aside */
@@ -207,10 +246,21 @@ article
 .acti
 {
     width:23%;
+    margin: auto;
+}
+
+.vites img
+{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
 }
 
 .vites
 {
+    max-height: 50%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #F2F2F2;
 }
@@ -220,22 +270,13 @@ article
     padding: 0 0 15px 15px;
 }
 
-.vites img
-{
-    width: 100%;
-    height: 80%;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 15px 15px 0 0;
-}
-
 /* Footer */
 
 footer
 {
     display: flex;
-    width: 70%;
     justify-content: space-between;
+    background-color: #F2F2F2;
 }
 
 footer ul
@@ -265,11 +306,13 @@ body
 h2
 {
     width: 100%;
+    margin: 0;
 }
 
 h3
 {
     font-size: 15px;
+    margin: 0;
 }
 
 ul
