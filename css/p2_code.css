@@ -7,6 +7,8 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+    width: 90%;
 }
 
 header img
@@ -37,11 +39,20 @@ header li:hover
     margin-top: 0px;
 }
 
+/* H1 et p */
+
+h1, body > p
+{
+    width: 90%;
+    margin: auto;
+}
+
 /* Formulaire */
 
-form
+#form
 {
-    display: flex;
+    width: 90%;
+    margin: auto;
 }
 
 input
@@ -151,6 +162,7 @@ main
     display: flex;
     margin: auto;
     justify-content: space-between;
+    width: 90%;
 }
 
 section
@@ -244,8 +256,9 @@ article
 {
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
 }
 
 .acti
@@ -282,7 +295,7 @@ article
 footer
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #F2F2F2;
 }
 
@@ -306,7 +319,6 @@ footer ul
 body
 {
     font-family: ralewaythin, Arial, sans-serif;
-    width: 90%;
     margin: auto;
 }
 
