@@ -8,7 +8,7 @@ header
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    width: 90%;
+    margin: 2% 5%;
 }
 
 header img
@@ -43,16 +43,14 @@ header li:hover
 
 h1, h1 + p
 {
-    width: 90%;
-    margin: 10px 5%;
+    margin: 0% 5% 5px;
 }
 
 /* Formulaire */
 
 #form
 {
-    width: 90%;
-    margin: auto;
+    margin: 0% 5%;
 }
 
 input
@@ -73,9 +71,9 @@ button
     padding: 11px;
 }
 
-.fa-search
+button > i
 {
-    color: white;
+    display: none;
 }
 
 .fa-map-marker-alt
@@ -91,6 +89,7 @@ button
     align-items: baseline;
     gap: 30px;
     flex-wrap: wrap;
+    margin: 30px 0 10px;
 }
 
 #filtres i
@@ -161,14 +160,13 @@ button
 main
 {
     display: flex;
-    margin: 0 5% 7%;
     justify-content: space-between;
-    width: 90%;
+    margin: 15px 5% 40px;
 }
 
 main p
 {
-    font-size: 12px;
+    font-size: 15px;
     margin: 5px 0;
 }
 
@@ -179,7 +177,7 @@ main h3
 
 .fa-star
 {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 section
@@ -198,6 +196,11 @@ article
     border-radius: 25px;
 }
 
+.prix
+{
+    font-weight: bold;
+}
+
 #hebergements .txt
 {
     margin: 10px;
@@ -206,7 +209,7 @@ article
 #hebergements
 {
     justify-content: space-between;
-    align-content: space-between;
+    align-content: space-around;
     width: 60%;
 }
 
@@ -219,7 +222,7 @@ article
 #hebergements img
 {
     width: 100%;
-    height: 120px;
+    height: 150px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
@@ -227,13 +230,13 @@ article
 #plus
 {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     margin: 20px 0 0 5px;
 }
 
 #populaires
 {
-    align-content: space-between;
+    align-content: space-around;
     width: 30%;
 }
 
@@ -257,9 +260,15 @@ article
     height: 26%;
 }
 
+.pop
+{
+    width: 40%;
+    height: 100%;
+}
+
 #populaires img
 {
-    width: 140px;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     overflow: hidden;
@@ -268,7 +277,8 @@ article
 
 #populaires .txt
 {
-    width: 60%;
+    width: 55%;
+    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -289,36 +299,95 @@ article
     flex-wrap: wrap;
     margin: 0 5% 7%;
     justify-content: space-between;
-    width: 90%;
+    margin: 0 5% 40px;
 }
 
 .acti
 {
     width:23%;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.vites img
+.vites-card-1-4
 {
-    height: 400px;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    border-radius: 15px;
+}
+
+.vites-card-2
+{
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    border-radius: 15px;
+}
+
+.vites-card-3
+{
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    border-radius: 15px;
+}
+
+.vites-card-5
+{
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    border-radius: 15px;
+}
+
+.vites-card-6
+{
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    border-radius: 15px;
+}
+
+.vites-img-1-4
+{
+    height: 540px;
+}
+
+
+.vites-img-2
+{
+    height: 290px;
+}
+
+.vites-img-3
+{
+    height: 140px;
+}
+
+.vites-img-5
+{
+    height: 190px;
+}
+
+.vites-img-6
+{
+    height: 240px;
+}
+
+#activites .txt
+{
+    margin-left: 20px;
+}
+
+.acti img
+{
+    height: 100%;
     width: 100%;
     overflow: hidden;
     object-fit: cover;
-    border-radius: 15px 15px 0 0;
-}
-
-.vites
-{
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px #F2F2F2;
-}
-
-.vites h3
-{
-    margin: 10px;
 }
 
 /* Footer */
@@ -333,7 +402,7 @@ footer
 
 .fin
 {
-    width: 35%;
+    width: 33%;
 }
 
 footer ul
@@ -378,7 +447,7 @@ h2
 
 h3
 {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 ul
@@ -393,12 +462,12 @@ a, a:visited
     color: inherit;
 }
 
-i
+.icone-blue
 { 
     color: #0065FC;
 }
 
-.fa-map-marker-alt, .fa-chart-line
+.star-grey
 {
-    color: black;
+    color: grey;
 }
