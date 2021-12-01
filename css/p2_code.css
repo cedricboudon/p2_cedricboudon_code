@@ -196,6 +196,12 @@ article
     border-radius: 25px;
 }
 
+.lien
+{
+    width: 100%;
+    height: 100%;
+}
+
 .prix
 {
     font-weight: bold;
@@ -258,6 +264,11 @@ article
     justify-content: space-between;
     width: 100%;
     height: 26%;
+}
+
+#populaires .lien
+{
+    display: flex;
 }
 
 .pop
