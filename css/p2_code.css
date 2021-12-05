@@ -269,6 +269,7 @@ article
 #populaires .lien
 {
     display: flex;
+    justify-content: space-between;
 }
 
 .pop
@@ -289,7 +290,6 @@ article
 #populaires .txt
 {
     width: 55%;
-    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -490,14 +490,6 @@ a, a:visited
 
 /* Responsive */
 
-@media (max-width: 992px) and (min-width: 768px)
-{
-    h3
-    {
-        font-size: 16px;
-    }
-}
-
 @media (max-width: 768px)
 {
     /* Header */
@@ -507,10 +499,6 @@ a, a:visited
         flex-direction: column;
         margin: auto;
         text-align: center;
-    }
-
-    header ul
-    {
     }
 
     #filtres h3
