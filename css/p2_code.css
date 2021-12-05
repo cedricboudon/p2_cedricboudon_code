@@ -164,6 +164,11 @@ main
     margin: 15px 5% 40px;
 }
 
+main a
+{
+    padding: 5px;
+}
+
 main p
 {
     font-size: 15px;
@@ -191,6 +196,7 @@ section
 
 article
 {
+    display: flex;
     background-color: white;
     border-radius: 25px;
 }
@@ -219,6 +225,7 @@ article
 
 #hebergements article
 {
+    flex-direction: column;
     width: 30%;
     margin: 1% 0;
 }
@@ -258,7 +265,6 @@ article
 
 #populaires article
 {
-    display: flex;
     justify-content: space-between;
     width: auto;
     height: 26%;
