@@ -16,7 +16,7 @@ section
 article
 {
     width: 45% !important;
-    margin: 1% 0;
+    margin: 1% 0 !important;
 }
 
 article img
