@@ -3,6 +3,29 @@ h1
     color: red;
 }
 
+main
+{
+    flex-wrap: wrap;
+}
+
+section
+{
+    width: auto !important;
+}
+
+article
+{
+    width: 45% !important;
+    margin: 1% 0;
+}
+
+article img
+{
+    width: 100% !important;
+    height: 150px !important;
+    object-fit: cover !important;
+}
+
 h3
 {
     font-size: 16px;
