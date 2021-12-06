@@ -6,17 +6,21 @@ h1
 main
 {
     flex-wrap: wrap;
+    margin: 0 5%;
 }
 
 section
 {
     width: auto !important;
+    justify-content: space-between !important;
+    margin-bottom: 20px;
 }
 
 article
 {
     width: 45% !important;
     margin: 1% 0 !important;
+    height: auto !important;
 }
 
 article img
