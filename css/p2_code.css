@@ -416,7 +416,7 @@ footer
     display: flex;
     justify-content: start;
     background-color: #F2F2F2;
-    padding: 5%;
+    padding: 5% 0 0 5%;
 }
 
 .fin

@@ -16,11 +16,11 @@ section
     margin-bottom: 20px;
 }
 
-article
+#hebergements article, #populaires article
 {
-    width: 45% !important;
-    margin: 1% 0 !important;
-    height: auto !important;
+    width: 45%;
+    margin: 1% 0;
+    height: auto;
 }
 
 article img
