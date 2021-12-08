@@ -335,7 +335,7 @@ article
 {
     height: 100%;
     overflow: hidden;
-    box-shadow: 5px 5px 5px #F2F2F2;
+    box-shadow: 5px 5px 15px lightgray;
     border-radius: 15px;
 }
 
@@ -343,7 +343,7 @@ article
 {
     height: 350px;
     overflow: hidden;
-    box-shadow: 5px 5px 5px #F2F2F2;
+    box-shadow: 5px 5px 15px lightgray;
     border-radius: 15px;
 }
 
@@ -351,7 +351,7 @@ article
 {
     height: 200px;
     overflow: hidden;
-    box-shadow: 5px 5px 5px #F2F2F2;
+    box-shadow: 5px 5px 15px lightgray;
     border-radius: 15px;
 }
 
@@ -359,7 +359,7 @@ article
 {
     height: 250px;
     overflow: hidden;
-    box-shadow: 5px 5px 5px #F2F2F2;
+    box-shadow: 5px 5px 15px lightgray;
     border-radius: 15px;
 }
 
@@ -367,7 +367,7 @@ article
 {
     height: 300px;
     overflow: hidden;
-    box-shadow: 5px 5px 5px #F2F2F2;
+    box-shadow: 5px 5px 15px lightgray;
     border-radius: 15px;
 }
 
