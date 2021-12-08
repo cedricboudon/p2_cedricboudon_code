@@ -4,10 +4,9 @@ main
     margin: 0 5%;
 }
 
-section
+#hebergements, #populaires
 {
-    width: auto !important;
-    justify-content: space-between !important;
+    width: auto;
     margin-bottom: 20px;
 }
 
