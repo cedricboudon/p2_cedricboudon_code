@@ -1,0 +1,76 @@
+    /* Header */
+
+    header
+    {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
+    header img
+    {
+        margin: auto;
+        width: auto;
+    }
+
+    nav
+    {
+        width: 100%;
+    }
+
+    header ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    header li
+    {
+        width: 50%;
+    }
+
+    #filtres h3
+    {
+        width: 100%;
+    }
+
+    /* Main */
+
+    main
+    {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    #hebergements, #populaires, #activites
+    {
+        padding: 5%;
+    }
+
+    #populaires
+    {
+        width: 100%;
+        margin: auto;
+        padding: 5%;
+        border-radius: 0;
+    }
+
+    #hebergements
+    {
+        background-color: white;
+    }
+
+    #hebergements article, #populaires article
+    {
+        width: 90%;
+    }
+
+    #logo
+    {
+        margin: 0 0 5%;
+    }
+
+    h3
+    {
+        font-size: 16px;
+    }
