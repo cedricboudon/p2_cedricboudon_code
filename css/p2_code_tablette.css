@@ -8,6 +8,7 @@ main
 {
     width: auto;
     margin-bottom: 20px;
+    justify-content: space-between;
 }
 
 #hebergements article, #populaires article
@@ -33,6 +34,12 @@ main
 .acti
 {
     width: 47%;
+    margin-bottom: 50px;
+}
+
+.card-1 a, .card-3 a
+{
+    height: 100%;
 }
 
 .card-1
