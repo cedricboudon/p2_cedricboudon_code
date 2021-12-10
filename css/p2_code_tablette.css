@@ -37,11 +37,6 @@ main
     margin-bottom: 50px;
 }
 
-.card-1 a, .card-3 a
-{
-    height: 100%;
-}
-
 .card-1
 {
     order: 1;

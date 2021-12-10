@@ -326,6 +326,11 @@ article
     justify-content: space-between;
 }
 
+.card-1 a, .card-3 a
+{
+    height: 100%;
+}
+
 .vites-card-1-4
 {
     height: 100%;
