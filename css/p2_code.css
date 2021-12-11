@@ -59,7 +59,7 @@ input
     border-top: solid #F2F2F2 1px;
     border-bottom: solid #F2F2F2 1px;
     padding: 10px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 button
@@ -79,7 +79,7 @@ button
 .fa-map-marker-alt
 {
     background-color: #F2F2F2;
-    padding: 11px 13px 13px;
+    padding: 10px 13px 13px;
     border-radius: 10px 0 0 10px;
     font-size: 15px;
 }
@@ -102,7 +102,7 @@ button
 
 #filtres p
 {
-    font-weight: bold;
+    font-weight: 700;
     display: inline-flex;
     align-items: baseline;
     margin: 11px 15px 10px 15px;
@@ -210,7 +210,7 @@ article
 
 .prix
 {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #hebergements .txt
@@ -241,7 +241,7 @@ article
 
 #plus
 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
     margin: 20px 0 0 5px;
 }
@@ -438,18 +438,12 @@ footer li
 
 /* Body */
 
-@font-face
-{
-    font-family: 'ralewaythin';
-    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body
 {
-    font-family: ralewaythin, Arial, sans-serif;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 400;
     margin: auto;
 }
 

@@ -2,23 +2,23 @@
     
     h1
     {
-        font-size: 45px;
+        font-size: 24px;
         margin: 25px 5%;
     }
     
     h2
     {
-        font-size: 45px;
+        font-size: 22px;
     }
 
     h3
     {
-        font-size: 35px;
+        font-size: 20px;
     }
 
     p
     {
-        font-size: 30px;
+        font-size: 16px;
     }
 
     /* Header */
@@ -30,10 +30,15 @@
         text-align: center;
     }
 
+    header picture
+    {
+        margin-top: 5%;
+    }
+
     header img
     {
         margin: auto;
-        width: auto;
+        width: 35%;
     }
 
     nav
@@ -46,7 +51,7 @@
         width: auto;
         margin: 0;
         padding: 0;
-        font-size: 30px;
+        font-size: 17px;
     }
 
     header li
@@ -54,7 +59,7 @@
         width: 50%;
         border-bottom: solid 4px #f2f2f2;
         margin: auto;
-        padding: 26px 0;
+        padding: 15px 0;
     }
 
     header li:hover
@@ -82,10 +87,10 @@
 
     .fa-map-marker-alt
     {
-        font-size: 35px;
-        padding: 32px 0 25px;
+        font-size: 20px;
+        padding: 13px 0 19px;
         width: 15%;
-        border-radius: 25px 0 0 25px;
+        border-radius: 15px 0 0 15px;
     }
 
     form p
@@ -97,16 +102,16 @@
     input
     {
         width: 73%;
-        font-size: 40px;
-        padding: 22px 20px 19px;
+        font-size: 16px;
+        padding: 15px 15px 15px;
     }
 
     button
     {
-        border-radius: 25px;
-        margin-left: -25px;
-        font-size: 35px;
-        padding: 28px 0 21px;
+        border-radius: 15px;
+        margin-left: -15px;
+        font-size: 20px;
+        padding: 12px 0 16px;
         width: 15%;
     }
 
@@ -123,13 +128,13 @@
 
     #filtres div
     {
-        border: solid #F2F2F2 4px;
+        border: solid #F2F2F2 2px;
         border-radius: 60px;
     }
 
     #filtres p, #filtres i
     {
-        font-size: 30px;
+        font-size: 16px;
     }
 
     #filtres i
@@ -140,28 +145,28 @@
 
     #filtres p
     {
-        margin: 30px 35px;
+        margin: 13px 15px;
     }
 
     .fa-money-bill-wave
     {
-        padding: 35px 32px 37px;
+        padding: 16px 14px 17px;
     }
 
     .fa-child
     {
-        padding: 35px 40px 37px;
+        padding: 16px 18px 17px;
     }
 
     .fa-heart
 
     {
-        padding: 35px 36px 37px;
+        padding: 16px 16px 16px;
     }
 
     .fa-dog
     {
-        padding: 35px 34px 37px;
+        padding: 16px 15px 16px;
     }
 
     #resultats
@@ -172,14 +177,14 @@
 
     #resultats p
     {
-        font-size: 30px;
+        font-size: 16px;
     }
 
     #resultats i
     {
         border: solid #F2F2F2 2px;
-        border-radius: 30px;
-        padding: 10px 19px;
+        border-radius: 15px;
+        padding: 5px 10px;
     }
 
     /* Main */
@@ -188,6 +193,11 @@
     {
         flex-direction: column-reverse;
         margin: 0;
+    }
+
+    main a
+    {
+        padding: 5px;
     }
 
     #hebergements, #populaires, #activites
@@ -214,7 +224,7 @@
 
     .pop
     {
-        height: 300px;
+        height: 150px;
     }
 
     #populaires img
@@ -239,7 +249,7 @@
     
     #hebergements img
     {
-        height: 300px;
+        height: 150px;
     }
 
     #hebergements article, #populaires article
@@ -249,7 +259,7 @@
 
     #plus
     {
-        font-size: 35px;
+        font-size: 16px;
         margin: 5% 0 0;
     }
 
@@ -260,13 +270,13 @@
     
     main p
     {
-        font-size: 30px;
+        font-size: 16px;
         margin: 10px 0;
     }
     
     .fa-star
     {
-        font-size: 25px;
+        font-size: 13px;
     }
 
     /* Aside */
@@ -290,7 +300,7 @@
 
     .acti img
     {
-        height: 300px;
+        height: 150px;
     }
 
     .card-1, .card-2, .card-3, .vites-card-1-4
@@ -321,7 +331,7 @@
 
     footer ul
     {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .fin
@@ -332,6 +342,6 @@
 
     footer h3
     {
-        font-size: 45px;
+        font-size: 22px;
         margin: 0 0 5%;
     }
