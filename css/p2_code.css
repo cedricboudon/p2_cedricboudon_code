@@ -1,5 +1,7 @@
 /* Feuille de style CSS P2 */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 /* Header */
 
 header
@@ -138,9 +140,9 @@ button
 
 #filtres div:hover
 {
-    color: green;
+    color: #0065FC;
     transform: scale(1.25);
-    box-shadow: 5px 5px 5px green;
+    box-shadow: 5px 5px 5px #0065FC;
 }
 
 #resultats
@@ -246,6 +248,7 @@ article
     font-weight: 700;
     font-size: 20px;
     margin: 20px 0 0 5px;
+    width: 100%;
 }
 
 #populaires
@@ -264,6 +267,11 @@ article
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#populaires a
+{
+    width: 100%;
 }
 
 #populaires article
@@ -298,14 +306,19 @@ article
     width: 55%;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: space-between;
+    padding: 0 0 10px;
+}
+
+#populaires .txt2
+{
+    width: 100%;
 }
 
 #populaires .txt p
 {
     width: 100%;
-    margin: 0;
-    padding: 5px 0 10px 0;
+    margin-top: 10px;
 }
 
 /* Aside */
@@ -439,8 +452,6 @@ footer li
 }
 
 /* Body */
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body
 {
